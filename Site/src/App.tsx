@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <div style={{ padding: 32 }}>
-      <h1>Todo</h1>
+      <h1>Todo App 📝</h1>
 
       <input value={title} onChange={(e) => setTitle(e.target.value)} />
       <button
